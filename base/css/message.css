@@ -1,0 +1,129 @@
+div.message{
+	position:relative;
+	color:#fff;
+	font-size:10px !important;
+}
+
+div.message .topleft,
+div.message .topright,
+div.message .bottomleft,
+div.message .bottomright{
+	position: absolute;
+	width:5px;
+	height:5px;
+  background-image: url("../images/message.png");
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+div.message .icon{
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:5px;
+	left:5px;
+}
+div.message .msg{
+	margin-top:0;
+	margin-right:20px;
+	margin-left:35px;
+	padding:5px 7px 5px 0;
+	min-height:32px;
+}
+div.message .msg ul{
+	margin:0 0 0 17px;
+	padding:0;
+}
+div.message .close{
+	width:12px;
+	height:12px;
+	cursor:pointer;
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+div.message .topleft{
+	top: 0;
+  left: 0;
+}
+div.message .topright{
+	top: 0;
+  right: 0;
+
+}
+div.message .bottomleft{
+	bottom: 0;
+  left: 0;
+	-bottom:-1px;
+}
+div.message .bottomright{
+	bottom: 0;
+  right: 0;
+	-bottom:-1px;
+}
+div.message .icon{
+	background:url("../images/msg_icons.png");
+	background-repeat:no-repeat;
+}
+
+div.confirm{
+	background:#73BE33;
+}
+div.confirm .icon{
+	background-position:0px 0px;
+}
+div.confirm .topleft{
+	background-position: 0px 0px;
+}
+
+div.confirm .bottomleft{
+	background-position: 0px -5px;
+}
+div.confirm .topright{
+	background-position: -5px 0px;
+}
+
+div.confirm .bottomright{
+	background-position: -5px -5px;
+}
+
+div.warning{
+	background:#FFE500;
+	color:#000;
+	font-weight:normal;
+}
+div.warning .icon{
+	background-position:-20px 0px;
+}
+div.warning .topleft{
+	background-position: -10px 0px;
+}
+div.warning .bottomleft{
+	background-position: -10px -5px;
+}
+div.warning .topright{
+	background-position: -15px 0px;
+}
+
+div.warning .bottomright{
+	background-position: -15px -5px;
+}
+
+div.error{
+	background:#FF3E00;	
+}
+div.error .icon{
+	background-position:-40px 0px;
+}
+div.error .topleft{
+	background-position: -20px 0px;
+}
+div.error .bottomleft{
+	background-position: -20px -5px;
+}
+div.error .topright{
+	background-position: -25px 0px;
+}
+
+div.error .bottomright{
+	background-position: -25px -5px;
+}

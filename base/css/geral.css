@@ -1,0 +1,301 @@
+/* CSS Document */
+
+
+body {
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border: none;
+}
+a {
+	text-decoration: none;
+	color: #666666;
+}
+a:hover {
+	color: #000000;
+}
+form {
+	margin: 0;
+	padding:0;
+}
+
+#load_dialog_body{
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:100002;
+	padding:0;
+
+}
+#load_dialog_body table{
+	border-collapse:0;
+	border-spacing:0;
+}
+#load_dialog_body .msg{
+
+	padding:5px 10px;
+}
+#load_dialog_body .b{
+	font-size:1px;
+	line-height:1px;
+	height:1px;
+	overflow:hidden;
+}
+#load_dialog_body .bgy{
+	background:#FF6;
+}
+#load_dialog_body .bgg{
+	background:#73BE33;
+}
+#load_dialog_body .bgr{
+	background:#F00;
+}
+
+#message{
+	padding:2px 5px;
+	margin-bottom:5px;
+}
+
+.bgy{
+	background:#FF6;
+	color:#f00;
+}
+.bgg{
+	background:#73BE33;
+	color:#fff;
+	font-weight:bold;
+}
+.bgr{
+	background:#F00;
+	color:#fff;
+	font-weight:bold;
+}
+
+/* geraTabela Relatorio */
+.geraTabelaRelatorio{
+
+	/*border-left:1px solid #E3E3E3;
+		border-right:1px solid #E3E3E3;
+		border-bottom:1px solid #E3E3E3;*/
+	border-collapse:collapse;
+}
+.geraTabelaRelatorio thead tr th{
+	border-top:1px solid #F4F4F4;
+	border-bottom:1px solid #c9c9c9;
+	height:26px;
+	font-weight:bold;
+	background:url("../images/tb_head.png") repeat-x left -2px;
+	padding:0 2px;
+	font-size:8pt;
+	border-left:1px solid #E9E9E9;
+	border-right:1px solid #C9C9C9;
+}
+.geraTabelaRelatorio tbody tr td{
+	padding:0 2px;
+	font-size:85%;
+	line-height:8pt;
+	border:1px solid #E6E6E6;
+	/*border-bottom:1px solid #E6E6E6;
+		border-right:1px solid #E6E6E6;*/
+}
+.geraTabelaRelatorio tbody tr td.valor {
+
+}
+.geraTabelaRelatorio tbody .even{
+	background:#f6f6f6;
+}
+.geraTabelaRelatorio tbody .odd{
+	background:#fff;
+}
+.geraTabelaRelatorio tbody .over{
+	background:#FFEF66;
+	cursor:pointer;
+}
+.geraTabelaRelatorio tbody .even:hover,
+.geraTabelaRelatorio tbody .odd:hover{
+		background:#ffc;
+}
+.geraTabelaRelatorio tbody tr .first{
+	border-bottom:1px solid #E6E6E6;
+	border-left:1px solid #E6E6E6;
+}
+.geraTabelaRelatorio .editar,
+.geraTabelaRelatorio .form,
+.geraTabelaRelatorio .receberComponente,
+.geraTabelaRelatorio .enviarOrcamento,
+.geraTabelaRelatorio .diagnosticar,
+.geraTabelaRelatorio .receberOrcamento,
+.geraTabelaRelatorio .enviarParaAT,
+.geraTabelaRelatorio .receber,
+.geraTabelaRelatorio .EmiteNf,
+.geraTabelaRelatorio .solicitaRecursos,
+.geraTabelaRelatorio .retornaComponente,
+.geraTabelaRelatorio .editarapagar,
+.geraTabelaRelatorio .revalidarNF,
+.geraTabelaRelatorio .solicitaNf,
+.geraTabelaRelatorio .editarapagarinfo
+{
+	cursor:pointer;
+}
+.geraTabelaRelatorio .form{
+	cursor:pointer;
+}
+
+.geraTabelaRelatorio .divNavPage .top,
+.geraTabelaRelatorio .divNavPage .top div
+{
+	height:5px;
+	background-image:url("../images/roundboxE3E3E3.png") !important;
+	background-repeat:none;
+	font-size:0;
+}
+.geraTabelaRelatorio .divNavPage .middle{
+	border-left:1px solid #E3E3E3;
+	border-right:1px solid #E3E3E3;
+	padding:0 10px;
+}
+.geraTabelaRelatorio .btn{
+	margin-left:2px;
+	cursor:pointer;
+	opacity: 0.5;
+	-moz-opacity:0.5;
+}
+.geraTabelaRelatorio .btn:hover{
+	opacity: 1 !important;
+	-moz-opacity:1 !important;
+}
+.geraTabelaRelatorio tbody tr .btn a{
+	opacity: 0.3;
+	-moz-opacity:0.3;
+}
+.geraTabelaRelatorio tbody tr .btn a:hover{
+	opacity: 1 !important;
+	-moz-opacity:1 !important;
+}
+.geraTabelaRelatorio tbody tr:hover .btn a{
+	opacity: 0.8;
+	-moz-opacity:0.8;
+}
+
+/* fim geraTabela Relatorio */
+table#detalhesComponente{
+	border-collapse: 0px; border-spacing: 0px;
+	border:1px solid #e8e8e8;
+}
+table#detalhesComponente td{
+	border-bottom:1px solid #e8e8e8;
+	padding:3px;
+}
+table#detalhesComponente .even{
+	padding-left:20px;
+}
+table#detalhesComponente td span{
+	font-weight:bold;
+}
+
+
+
+.urgente{
+	color:red;
+	font-weight:bold;
+}
+.informa {
+	color: #777;
+	font-style: italic;
+}
+.btn{
+	cursor:pointer;
+}
+
+.titulo{
+	margin-bottom:5px;
+	background:url("../images/bg_div_l.png") no-repeat bottom left;
+}
+.titulo .titulo{
+	padding-bottom:25px;
+	color:#406D1A;
+	font-size:14px;
+	line-height:16px;
+	background:url("../images/bg_div_r.png") no-repeat bottom right;
+}
+
+.fieldSet{
+	border: 1px solid #FFFFFF;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: 0 0 5px #E8E8E8;
+	-webkit-box-shadow: 0 0 5px #E8E8E8;
+	font-size: 8pt;
+	padding: 8px 4px 4px;
+	margin:15px 10px 10px 10px;
+}
+.fieldSet .legenda{
+	background: -moz-linear-gradient(center top , #FFFFFF 0%, #F3F3F3 50%, #EDEDED 51%, #FFFFFF 100%) repeat scroll 0 0 transparent;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	border-radius: 5px;
+	box-shadow: 0 0 5px #E8E8E8;
+	-webkit-box-shadow: 0 0 5px #E8E8E8;
+	color: #585858;
+	margin-top: -10px;
+	padding: 5px;
+}
+
+
+/* parte referente a home*/
+#modulos {
+	border:2px solid #708090;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	width:500px;
+	height:350px;
+	position:relative;
+	top:145px;
+	margin:auto;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
+.modulos{
+	float:left;
+	margin: -110px 0 0 30px;
+	text-align: center;
+
+}
+#logo_scma{
+	position:relative;
+	width:300px;
+	top:-135px;
+	margin: auto;
+}
+.clear{
+	clear:both;
+}
+
+/*cliente*/
+#menu_modulo{
+	background:url('../images/bj.png') top left repeat-x;
+	height: 100px;
+}
+#logo{
+/*	background:url('../images/scma_logo.png') top left no-repeat; */
+	width:109px;
+	height:100px;
+	cursor:pointer;
+	float:left;
+}
+#sel_modulo{
+	float:right;
+	margin-right:5px;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+#div_rfid{
+	float:left;
+	margin-top: 30px;
+	margin-left: 120px;
+}
